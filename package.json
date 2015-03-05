@@ -1,0 +1,25 @@
+{
+    "name": "QUnit",
+    "studioName": "QUnit",
+    "category": "Unit Testing",
+    "iconPath": "/icons/widget.png",
+    "author": "Alexandre Morgaut",
+    "version": "1.0.0",
+    "copyright": "(c) 2015 Alexandre Morgaut",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AMorgaut/WQUnit.git"
+    },
+    "keywords": ["wakanda", "widget", "unit test", "test", "tdd", "qunit", "jquery"],
+    "engines": {"wakanda": ["9", "10"]},
+    "license": "MPL",
+    "externalWidgets": [ ],
+    "loadDependencies": [
+        {"id": "Widget_V2"},
+        {"id": "QUnit/css/widget.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "QUnit/css/qunit-1.17.1.css", "version": "1.17.1", "path": "WIDGETS_CUSTOM"},
+        {"id": "QUnit/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "QUnit/js/qunit-1.17.1.js", "version": "1.17.1", "path": "WIDGETS_CUSTOM"},
+        {"id": "QUnit/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
+    ]
+}
