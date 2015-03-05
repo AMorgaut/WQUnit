@@ -1,12 +1,18 @@
 
-# QUnit Widget for [Wakanda](http://wakanda.org)![QUnit Icon](./icons/widget.png) 
-The QUnit widget allows you to run [QUnit](http://qunitjs.com) unit test suites from your frontend (Pages, Components, Custom Widgets, ..) and show their results.Custom Widgets code can be independentily tested in designer (from the Wakanda GUI Designer) and runtime mode.
+# QUnit Widget for [Wakanda](http://wakanda.org)
+
+![QUnit Icon](./icons/widget.png) 
+
+The QUnit widget allows you to run [QUnit](http://qunitjs.com) unit test suites from your frontend (Pages, Components, Custom Widgets, ..) 
+and show their results.
+
+Custom Widgets code can be independentily tested in designer (from the Wakanda GUI Designer) and runtime mode.
 
 ![QUnit Screenshot](./images/screenshot.png)
 
 ## How to Install
 
-You can install a custom widget by using the Wakanda Studio [Add-ons Extension](http://doc.wakanda.org/WakandaStudio/help/Title/en/page4263.html "Add-ons Extension"). 
+You can install the QUnit widget by using the Wakanda Studio [Add-ons Extension](http://doc.wakanda.org/WakandaStudio/help/Title/en/page4263.html "Add-ons Extension"). 
 
 For more information, refer to the [Installing a Custom Widget](http://doc.wakanda.org/WakandaStudio/help/Title/en/page3869.html#1056003 "Installing a Custom Widget") manual.
 
@@ -16,7 +22,7 @@ Drag & drop the `QUnit` Widget on your Wakanda Page. It will automatically liste
 
 QUnit test examples:
 
-```
+```javascript
 QUnit.module( "module a" );
 
 QUnit.test( "a basic test example", function( assert ) {
